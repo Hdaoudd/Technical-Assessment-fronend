@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #efeeee;
+}
+
+.profileCard {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+.profileHeading {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.userInfo {
+  margin-bottom: 10px;
+}
+
+.userInfo p {
+  margin: 10px 0;
+}
+.label {
+  font-weight: bold;
+}

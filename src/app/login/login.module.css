@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.wrapper {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  gap: 2vh;
+  width: 45%;
+  height: 90vh;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(73, 73, 75, 0.305);
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+@media (max-width: 640px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 475px) {
+  .wrapper {
+    width: 100%;
+  }
+}
