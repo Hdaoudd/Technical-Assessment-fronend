@@ -12,8 +12,10 @@ const Profile = () => {
     router.push("/");
   };
   useEffect(() => {
-    setUser(JSON.parse(localStorage.getItem("user")));
-  }, [localStorage.getItem("user")]);
+    if (typeof window !== "undefined") {
+      setUser(JSON.parse(localStorage.getItem("user")));
+    }
+  }, []);
   return (
     <div className={styles.container}>
       <Button
