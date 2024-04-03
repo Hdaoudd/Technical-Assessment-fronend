@@ -23,7 +23,7 @@ const LogiForm = () => {
   const login = async () => {
     await axios
       .post(
-        "http://localhost:4000/api/user/login",
+        "http://localhost:4000/api/users/signin",
         {
           username: userName,
           password: password,
@@ -55,7 +55,7 @@ const LogiForm = () => {
   const signup = async () => {
     await axios
       .post(
-        "http://localhost:4000/api/user/signup",
+        "http://localhost:4000/api/users/signin",
         {
           username: userName,
           password: password,

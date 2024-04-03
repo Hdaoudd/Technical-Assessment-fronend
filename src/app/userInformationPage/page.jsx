@@ -35,9 +35,6 @@ const Profile = () => {
           },
         }}
         onClick={() => logout()}
-        // onClick={() => {
-        //   navigate("/home");
-        // }}
       >
         logout
       </Button>
